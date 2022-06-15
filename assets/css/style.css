@@ -34,7 +34,7 @@ header nav ul li
 {
     display: inline;
 }
-header nav ul li{
+header nav ul li a{
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
@@ -57,7 +57,7 @@ footer div{
     text-align: right;
 }
 
-footer a{
+footer a {
     color: #024e76;
 }
 
@@ -118,7 +118,7 @@ section{
   }
 
   .form-input{
-    border: #024e76;
+    border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
