@@ -30,8 +30,8 @@ header nav{
     float: right;
     margin: 7px 0;
 }
-header nav ul li
-{
+header nav ul li{
+
     display: inline;
 }
 header nav ul li a{
@@ -39,11 +39,13 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 22px;
 }
+
 footer{
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
+
 footer h2{
     display: inline;
     color: #024e76;
@@ -109,9 +111,9 @@ section{
   .hero h3{
     font-size: 24px;
     margin: 0;
+  }
     
 
-  }
 
   .hero p{ 
     margin: 5px 0 15px 0;
@@ -143,8 +145,6 @@ section{
   .intro{
     text-align: center;
   }
-
-  
 
   .intro p{
     line-height: 1.7;
@@ -193,7 +193,6 @@ background: #fce138;
     margin-top: 10px;
   }
 
-  }
 
   .steps p{
     color: #39a6b2;
