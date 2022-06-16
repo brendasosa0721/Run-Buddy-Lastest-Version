@@ -208,7 +208,7 @@ background: #fce138;
     text-align: center;
   }
     
-
+  
   .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -236,13 +236,13 @@ background: #fce138;
   text-align: right;
 }
 
-.trainer-bio h3{
-  font-size: 32px;
-  margin-bottom: 8px;
+.trainer h3{
+  font-size: 46px;
+  margin-bottom: 25px;
 
 }
 
-.trainer-bio h4{
+.trainer h4{
   font-weight: lighter;
   font-size: 26px;
   margin-bottom: 25px;
@@ -268,4 +268,35 @@ background: #fce138;
 
 .contact h2{
   color: #fce138;
+  font-size: 36px;
 }
+
+.contact-info iframe{
+  width: 400px;
+  height: 400px;
+}
+.contact div { 
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+}
+.contact h3{
+  color: #fce138;
+  font-size: 32px;
+}
+.contact p, 
+.contact address{
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+
+}
+.contact a{
+  color: #fce138;
+}
+
+/* REACH OUT STYLES END*/
