@@ -46,22 +46,7 @@ footer{
     padding: 40px 35px;
 }
 
-footer h2{
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
 
-footer div{
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-}
 
 section{
     padding: 60px;
@@ -109,13 +94,13 @@ section{
   }
 
   .hero h3{
-    font-size: 24px;
-    margin: 0;
+    font-size: 24px
+   
   }
     
 
 
-  .hero p{ 
+  .hero p { 
     margin: 5px 0 15px 0;
   }
 
@@ -300,3 +285,22 @@ background: #fce138;
 }
 
 /* REACH OUT STYLES END*/
+
+/*footer*/
+
+footer h2{
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div{
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
