@@ -40,28 +40,6 @@ header nav ul li a{
     font-size: 22px;
 }
 
-footer{
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2{
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-footer div{
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-footer a {
-    color: #024e76;
-}
 
 section{
     padding: 60px;
@@ -77,8 +55,6 @@ section{
 /* Hero Style End*/
 
 /* Style the form and Input Fields*/
-
-
 
 .hero div form{
     background-color: #fce138;
@@ -142,6 +118,7 @@ section{
   }
   /* HERO STYLES END*/  
 
+
   .intro{
     text-align: center;
   }
@@ -153,6 +130,7 @@ section{
     font-size: 20px;
     margin: 0 auto;
   }
+/* REACH OUT STYLE*/
 
   .steps{
 text-align: center;
@@ -300,3 +278,28 @@ background: #fce138;
 }
 
 /* REACH OUT STYLES END*/
+
+/* FOOTER*/
+footer{
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2{
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div{
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
+/*END OF THE FOOTER*/
