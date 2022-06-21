@@ -274,9 +274,11 @@ background: #fce138;
   font-size: 36px;
 }
 
-.contact-info iframe{
+.contact iframe{
   width: 400px;
   height: 400px;
+  justify-items: left;
+ 
 }
 .contact div { 
   width: 410px;
@@ -289,6 +291,7 @@ background: #fce138;
 .contact h3{
   color: #fce138;
   font-size: 32px;
+  border-bottom: #39a6b2;
 }
 .contact p, 
 .contact address{
@@ -296,6 +299,8 @@ background: #fce138;
   line-height: 1.5;
   font-size: 20px;
   font-style: normal;
+  text-align: left;
+  
 
 }
 .contact a{
