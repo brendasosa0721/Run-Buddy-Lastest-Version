@@ -136,7 +136,7 @@ section{
     margin: 5px 0 15px 0;
   }
 
-  .form-input{
+  .form-input:focus {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -144,6 +144,8 @@ section{
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
   }
 
@@ -188,14 +190,17 @@ section{
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
+   
   }
 
   .primary-border {
     border-color: #fce138;
+   
   }
 
   .secondary-border h2{
     border-color: #39a6b2;
+
     
   }
 
@@ -215,12 +220,21 @@ section{
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
+
+  /*state based on positioning*/
+  .step:nth-child(even){
+    border-bottom: 1px solid#39a6b2;
+    
+  }
+  .step:not(:last-child){
+    border-bottom: 1px solid #39a6b2;
+  }
+  /* end of state based positioning*/
   .step h3{
     color: #024e76;
     font-size: 46px;
@@ -337,6 +351,7 @@ section{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+ 
 }
 
 .contact h2{
@@ -384,8 +399,17 @@ section{
   margin-bottom: 15px;
   margin-top: 5px;
   border-radius: 15px;
+  /* added transparent background here*/
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 
 }
+
+.contact-form input:focus, .contact-form textarea:focus{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
 
 .contact button{
   width: 100%;
