@@ -644,11 +644,4 @@ footer a {
 
 /*END OF MEDIA QUERIES STYLE*/
 
-/* Using CSS Variables to Optimize the page*/
-
-div {
-  --favorite-color: blue;
-  color: var(--favorite-color);
-  box-shadow: 5px 5px 10px var(--favorite-color);
-}
-
+ 
